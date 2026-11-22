@@ -1,0 +1,10 @@
+{
+  "name": "NoctisForge — Criador de Modpacks",
+  "short_name": "NoctisForge",
+  "description": "Site oficial do NoctisForge, criado por MeiaNoite.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#07050d",
+  "theme_color": "#07050d",
+  "icons": [{"src": "assets/favicon.png", "sizes": "192x192", "type": "image/png", "purpose": "any"}]
+}
