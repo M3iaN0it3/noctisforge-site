@@ -1,11 +1,9 @@
 {
-  "version": "1.11.1",
-  "publishedAt": "2026-11-22T04:48:29Z",
-  "downloadUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.1/NoctisForge.exe",
-  "sha256": "3934edd2aebff35f7fd34556c70a933179a1b7fbb565491e627d4779675ebd03",
+  "version": "1.11.2",
+  "publishedAt": "2026-11-22T05:23:46Z",
+  "downloadUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.2/NoctisForge.exe",
+  "sha256": "96ccf5039b45d98ae338590d1e1eff1cecb5206799fdf09e0e34e906b10443f6",
   "notes": [
-    "Janela própria para Windows com WebView2.",
-    "Aplicativo deixa de abrir em uma janela normal do Edge.",
-    "Melhorias na inicialização e no encerramento da janela."
+    "Melhorias e ajustes no NoctisForge Desktop."
   ]
 }
