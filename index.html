@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07050d">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="NoctisForge: crie modpacks de Minecraft a partir das suas ideias. Descubra mods, revise dependências, organize projetos e exporte seus pacotes. Criado Por MeiaNoite.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NoctisForge — Seu Minecraft. Suas regras.">
+  <meta property="og:description" content="O criador inteligente de modpacks para Windows. Monte, personalize e exporte seu próprio universo Minecraft.">
+  <meta property="og:image" content="assets/logo.webp">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>NoctisForge | Crie um Minecraft do seu jeito</title>
+</head>
+<body>
+  <svg aria-hidden="true" class="svg-sprite" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ic-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+    <symbol id="ic-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 17v3h16v-3"/></symbol>
+    <symbol id="ic-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3 8 8 11 5-3 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="ic-box" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5zM3 7v10l9 5 9-5V7M12 12v10"/></symbol>
+    <symbol id="ic-spark" viewBox="0 0 24 24"><path d="m12 2 2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></symbol>
+    <symbol id="ic-cog" viewBox="0 0 24 24"><path d="m10 2-.4 2.2-2 .8L5.8 3.8 3.8 5.8 5 7.6l-.8 2L2 10v4l2.2.4.8 2-1.2 1.8 2 2 1.8-1.2 2 .8L10 22h4l.4-2.2 2-.8 1.8 1.2 2-2-1.2-1.8.8-2L22 14v-4l-2.2-.4-.8-2 1.2-1.8-2-2-1.8 1.2-2-.8L14 2z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="ic-window" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M2 8h20M7 5.5h.01M11 5.5h.01"/></symbol>
+    <symbol id="ic-play" viewBox="0 0 24 24"><path d="m8 4 12 8-12 8z"/></symbol>
+    <symbol id="ic-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7zM2 12l10 5 10-5M2 17l10 5 10-5"/></symbol>
+    <symbol id="ic-file" viewBox="0 0 24 24"><path d="M5 2h9l5 5v15H5zM14 2v6h5M8 12h8M8 16h7"/></symbol>
+    <symbol id="ic-speed" viewBox="0 0 24 24"><path d="M4.9 17a9 9 0 1 1 14.2 0M12 13l5-5M7 20h10"/></symbol>
+    <symbol id="ic-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="ic-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    <symbol id="ic-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M20 13v7H4V4h7"/></symbol>
+    <symbol id="ic-branch" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="19" r="2"/><path d="M6 7v10a3 3 0 0 0 3 3h7M6 12a3 3 0 0 0 3-3h7"/></symbol>
+  </svg>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container nav-inner">
+      <a class="brand" href="#inicio" aria-label="NoctisForge, início">
+        <img src="assets/logo.webp" width="43" height="43" alt="" class="brand-icon">
+        <span class="brand-name">NOCTIS<span>FORGE</span><small>CRIADO POR MEIANOITE</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#interface">Interface</a>
+        <a href="#perguntas">Dúvidas</a>
+        <a href="#baixar" class="nav-download"><svg><use href="#ic-download"/></svg> Baixar agora</a>
+      </nav>
+      <button class="mobile-menu" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks"><svg><use href="#ic-menu"/></svg></button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow glow-a" aria-hidden="true"></div><div class="hero-glow glow-b" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> O SEU UNIVERSO COMEÇA AQUI <span class="eyebrow-divider"></span> WINDOWS</div>
+          <h1 id="hero-title">Seu Minecraft.<br><span class="gradient-text">Suas regras.</span></h1>
+          <p class="hero-text">Descreva o mundo que você quer jogar. O <strong>NoctisForge</strong> ajuda a transformar sua ideia em um modpack com mods reais, dependências verificadas e liberdade para personalizar tudo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="downloads/NoctisForge-v1.3.exe" download><svg><use href="#ic-download"/></svg> Baixar para Windows <svg class="btn-arrow"><use href="#ic-arrow"/></svg></a>
+            <a class="btn btn-outline" href="#como-funciona"><svg><use href="#ic-play"/></svg> Como funciona</a>
+          </div>
+          <div class="hero-footnotes"><span><svg><use href="#ic-check"/></svg> Sem precisar de Python</span><span><svg><use href="#ic-check"/></svg> Arquivos oficiais</span><span><svg><use href="#ic-check"/></svg> Gratuito nesta versão</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Captura de tela do NoctisForge">
+          <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+          <div class="app-window">
+            <div class="window-bar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span class="window-title"><img src="assets/logo.webp" alt="" width="17" height="17"> NoctisForge — Criador de Modpacks</span><span class="window-version">v1.3</span></div>
+            <img src="assets/criador.webp" alt="Interface do aplicativo NoctisForge, com criador inteligente, menu lateral e configurações do modpack" width="1440" height="910" class="window-screenshot">
+          </div>
+          <div class="floating-tag tag-one"><span class="tag-icon"><svg><use href="#ic-shield"/></svg></span><span><b>Compatibilidade</b><small>Versões e dependências</small></span><svg class="tag-check"><use href="#ic-check"/></svg></div>
+          <div class="floating-tag tag-two"><span class="tag-icon"><svg><use href="#ic-spark"/></svg></span><span><b>Seu modpack, do seu jeito</b><small>Crie. Edite. Exporte.</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-divider"><span>DA IDEIA À AVENTURA</span><div></div><span>NOCTISFORGE / MEIANOITE</span></div>
+    </section>
+
+    <section class="section features" id="recursos" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading center"><div class="section-kicker">PODER NAS SUAS MÃOS</div><h2 id="features-title">Tudo o que você precisa.<br><span class="gradient-text">Sem complicar seu jogo.</span></h2><p>Da primeira ideia à exportação final. Uma oficina completa para criar modpacks sem ficar perdido no meio de centenas de arquivos.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-accent"><div class="feature-icon"><svg><use href="#ic-spark"/></svg></div><h3>Criador inteligente</h3><p>Conte que tipo de aventura você imagina e receba sugestões de mods compatíveis com seu tema, versão e loader.</p><span class="feature-meta">IDEIAS EM MODPACKS</span></article>
+          <article class="feature-card"><div class="feature-icon"><svg><use href="#ic-shield"/></svg></div><h3>Dependências e conflitos</h3><p>Analise bibliotecas necessárias, versões e incompatibilidades declaradas antes de adicionar ou exportar mods.</p><span class="feature-meta">VERIFICAÇÃO AUTOMÁTICA</span></article>
+          <article class="feature-card"><div class="feature-icon"><svg><use href="#ic-layers"/></svg></div><h3>Liberdade total para editar</h3><p>Escolha a meta de mods na geração e continue adicionando ou removendo itens manualmente depois.</p><span class="feature-meta">VOCÊ NO CONTROLE</span></article>
+          <article class="feature-card"><div class="feature-icon"><svg><use href="#ic-speed"/></svg></div><h3>Pensado para seu PC</h3><p>Informe RAM, processador e placa de vídeo para receber orientações de desempenho e gargalos estimados.</p><span class="feature-meta">PERFIL DE HARDWARE</span></article>
+          <article class="feature-card"><div class="feature-icon"><svg><use href="#ic-file"/></svg></div><h3>Quests e tradução PT-BR</h3><p>Inclua missões FTB Quests e gere traduções disponíveis para empacotar junto do seu modpack.</p><span class="feature-meta">EXTRAS OPCIONAIS</span></article>
+          <article class="feature-card"><div class="feature-icon"><svg><use href="#ic-box"/></svg></div><h3>Exportação flexível</h3><p>Gere pacotes Modrinth, arquivos de publicação e documentação. CurseForge exige verificação própria via API.</p><span class="feature-meta">ARQUIVOS PARA COMPARTILHAR</span></article>
+        </div>
+        <div class="honest-note"><svg><use href="#ic-shield"/></svg><p><strong>Transparência primeiro.</strong> Verificação automática reduz problemas, mas não garante que todos os mods funcionem juntos. Teste seu pack no Minecraft antes de publicar.</p></div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="como-funciona" aria-labelledby="process-title">
+      <div class="container process-layout">
+        <div class="process-intro"><span class="section-kicker">SIMPLES DE COMEÇAR</span><h2 id="process-title">Uma ideia.<br><span class="gradient-text">Infinitas possibilidades.</span></h2><p>Você não precisa conhecer cada mod do catálogo para começar a construir algo incrível.</p><a class="inline-link" href="#baixar">Começar com NoctisForge <svg><use href="#ic-arrow"/></svg></a><div class="process-symbol" aria-hidden="true">N<span>✦</span></div></div>
+        <div class="steps">
+          <article class="step"><div class="step-num">01</div><div class="step-main"><h3>Imagine seu mundo</h3><p>Escreva seu tema, estilo de jogo, objetivo e preferências. Pode ser tecnologia, magia, exploração, agricultura ou uma mistura de tudo.</p></div><svg><use href="#ic-spark"/></svg></article>
+          <article class="step"><div class="step-num">02</div><div class="step-main"><h3>Configure a experiência</h3><p>Escolha versão do Minecraft, Forge/Fabric/NeoForge, perfil de desempenho e quantidade desejada de mods.</p></div><svg><use href="#ic-cog"/></svg></article>
+          <article class="step"><div class="step-num">03</div><div class="step-main"><h3>Ajuste até ficar perfeito</h3><p>Veja os mods selecionados, entenda as sugestões e edite o pacote. Dependências obrigatórias entram na análise.</p></div><svg><use href="#ic-layers"/></svg></article>
+          <article class="step"><div class="step-num">04</div><div class="step-main"><h3>Exporte e vá jogar</h3><p>Revise o pacote, gere os arquivos e importe no launcher compatível. Depois, faça os testes dentro do Minecraft.</p></div><svg><use href="#ic-download"/></svg></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-section" id="interface" aria-labelledby="showcase-title">
+      <div class="container">
+        <div class="section-heading showcase-header"><div><span class="section-kicker">POR DENTRO DO NOCTISFORGE</span><h2 id="showcase-title">Uma interface feita<br><span class="gradient-text">para criar.</span></h2></div><p>Preto absoluto, detalhes roxos e ferramentas reunidas num só lugar. Clique nas capturas para ampliar.</p></div>
+        <div class="showcase-grid">
+          <button class="showcase-card showcase-big" type="button" data-image="assets/descricao.webp" data-title="Criação e descrição do modpack" aria-label="Ampliar captura do criador de modpacks"><img src="assets/descricao.webp" alt="Área de nome, descrição automática e painel de mods do NoctisForge"><span class="showcase-overlay"><span>Seu projeto, sua identidade<small>Nome, descrição e edição de modpack</small></span><svg><use href="#ic-external"/></svg></span></button>
+          <button class="showcase-card" type="button" data-image="assets/versoes.webp" data-title="Guia de versões" aria-label="Ampliar guia de versões"><img src="assets/versoes.webp" alt="Guia das versões do Minecraft e quantidade de projetos disponíveis"><span class="showcase-overlay"><span>Escolha a versão certa<small>Explore catálogos e loaders</small></span><svg><use href="#ic-external"/></svg></span></button>
+          <button class="showcase-card" type="button" data-image="assets/exportacao.webp" data-title="Exportação de modpacks" aria-label="Ampliar exportação de modpacks"><img src="assets/exportacao.webp" alt="Janela de exportação com seleção de extras e tradução PT-BR"><span class="showcase-overlay"><span>Exporte do seu jeito<small>Pacotes, quests e tradução PT-BR</small></span><svg><use href="#ic-external"/></svg></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tech-section" aria-labelledby="tech-title">
+      <div class="container tech-panel"><div class="tech-copy"><span class="section-kicker">COMPATIBILIDADE IMPORTA</span><h2 id="tech-title">Não é só jogar<br><span class="gradient-text">mods numa pasta.</span></h2><p>O NoctisForge consulta versões reais e as dependências declaradas pelos autores para ajudar a organizar seu pack. Menos tentativa no escuro, mais controle antes de iniciar o jogo.</p><div class="tech-points"><span><svg><use href="#ic-check"/></svg> Versão e mod loader</span><span><svg><use href="#ic-check"/></svg> Bibliotecas obrigatórias</span><span><svg><use href="#ic-check"/></svg> Alertas de conflito</span><span><svg><use href="#ic-check"/></svg> Revisão antes de exportar</span></div></div><div class="tech-visual" aria-hidden="true"><div class="tech-line tech-line-a"></div><div class="tech-line tech-line-b"></div><div class="tech-center"><svg><use href="#ic-shield"/></svg></div><span class="tech-pill tech-pill-one">Minecraft</span><span class="tech-pill tech-pill-two">Dependências</span><span class="tech-pill tech-pill-three">Loader</span><span class="tech-pill tech-pill-four">Verificado</span></div></div>
+    </section>
+
+    <section class="section faq-section" id="perguntas" aria-labelledby="faq-title"><div class="container faq-layout"><div class="faq-intro"><span class="section-kicker">DÚVIDAS FREQUENTES</span><h2 id="faq-title">Perguntas?<br><span class="gradient-text">Sem mistério.</span></h2><p>O básico para começar sem precisar montar uma wiki inteira.</p></div><div class="faq-items">
+      <details><summary>O NoctisForge é gratuito?<span class="faq-plus"></span></summary><div class="faq-answer">Sim. A versão disponibilizada nesta página pode ser baixada gratuitamente. Integrações externas, como DeepL ou CurseForge, podem exigir contas, chaves de API ou condições próprias.</div></details>
+      <details><summary>Preciso instalar Python?<span class="faq-plus"></span></summary><div class="faq-answer">Não. O executável para Windows 64 bits é independente de Python. O programa precisa de conexão com a internet para consultar e baixar informações dos mods.</div></details>
+      <details><summary>O modpack já vem com todos os arquivos e traduções?<span class="faq-plus"></span></summary><div class="faq-answer">O `.mrpack` contém referências para baixar os arquivos compatíveis. Configurações, quests e traduções só entram quando são geradas e incluídas na exportação. A tradução automática pode ser parcial.</div></details>
+      <details><summary>O aplicativo garante que nenhum mod dará conflito?<span class="faq-plus"></span></summary><div class="faq-answer">Não. Ele verifica metadados, loaders, versões e conflitos conhecidos ou declarados. Problemas não documentados só podem ser descobertos em testes reais de inicialização e gameplay.</div></details>
+      <details><summary>Por que o Windows mostra um aviso ao abrir?<span class="faq-plus"></span></summary><div class="faq-answer">Esta versão ainda não possui assinatura digital de código. O Microsoft Defender SmartScreen pode exibir um aviso para executáveis pouco conhecidos ou sem reputação estabelecida. Baixe somente dos canais oficiais do projeto.</div></details>
+      <details><summary>É um produto oficial do Minecraft ou do CurseForge?<span class="faq-plus"></span></summary><div class="faq-answer">Não. NoctisForge é um projeto independente criado por MeiaNoite e não é afiliado à Mojang, Microsoft, Modrinth ou CurseForge.</div></details>
+    </div></div></section>
+
+    <section class="section download-section" id="baixar" aria-labelledby="download-title"><div class="container"><div class="download-box"><div class="download-shine" aria-hidden="true"></div><img class="download-logo" src="assets/logo.webp" width="88" height="88" alt="Logo do NoctisForge"><span class="section-kicker">PRONTO PARA CRIAR?</span><h2 id="download-title">Seu próximo mundo<br><span class="gradient-text">começa aqui.</span></h2><p>Faça o download da versão atual para Windows e comece a criar seu próprio modpack.</p><div class="download-actions"><a class="btn btn-primary" href="downloads/NoctisForge-v1.3.exe" download><svg><use href="#ic-download"/></svg> Baixar NoctisForge v1.3</a><a class="btn btn-outline" href="downloads/NoctisForge-v1.3-Windows.zip" download>Baixar pacote .ZIP <svg><use href="#ic-arrow"/></svg></a></div><div class="download-meta"><span>Windows 10/11 · 64 bits</span><span>Sem Python</span><span>Requer internet para o catálogo</span></div><p class="download-disclaimer">Versão de desenvolvimento. O executável ainda não tem assinatura digital. Verifique os requisitos do seu PC e teste os modpacks antes de publicar.</p></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-top"><div class="footer-brand"><div class="brand"><img src="assets/logo.webp" width="45" height="45" alt=""><span class="brand-name">NOCTIS<span>FORGE</span><small>CRIADO POR MEIANOITE</small></span></div><p>Transformando ideias em universos.</p></div><div class="footer-col"><h3>Explore</h3><a href="#recursos">Recursos</a><a href="#como-funciona">Como funciona</a><a href="#interface">Capturas de tela</a></div><div class="footer-col"><h3>Projeto</h3><a href="#baixar">Download</a><a href="#perguntas">Perguntas frequentes</a><a href="privacidade.html">Privacidade</a></div></div><div class="footer-bottom"><p>© <span id="currentYear">2026</span> NoctisForge. <strong>Criado Por MeiaNoite.</strong></p><p>Projeto independente. Não afiliado à Mojang, Microsoft, CurseForge ou Modrinth.</p></div></div></footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Captura de tela ampliada"><div class="lightbox-top"><h2 id="lightboxTitle">Captura de tela</h2><button type="button" id="lightboxClose" aria-label="Fechar imagem"><svg><use href="#ic-close"/></svg></button></div><img id="lightboxImage" src="assets/criador.webp" alt="Captura ampliada do NoctisForge"><p>Captura real de uma versão de desenvolvimento. A aparência pode mudar.</p></dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>
