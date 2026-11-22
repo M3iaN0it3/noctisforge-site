@@ -1,0 +1,7 @@
+.nf-site-release{margin:28px 0 24px;padding:22px 25px;border:1px solid #563370;border-radius:15px;background:linear-gradient(135deg,#150b23,#0c0812);color:#ecddf7;text-align:left}
+.nf-site-release h3{margin:8px 0 9px;font-size:clamp(18px,2.6vw,24px);color:#fff}
+.nf-site-release p{margin:0 0 10px;font-size:14px;line-height:1.6;color:#e3cfff}
+.nf-site-release ul{margin:10px 0;padding-left:22px;line-height:1.8;color:#dac7ec;font-size:14px}
+.nf-site-release li{margin-bottom:5px}
+.nf-site-release small{font-size:12px;color:#b89ccc}
+.nf-release-tag{font-size:11px;letter-spacing:2px;color:#b985ff;font-weight:800}

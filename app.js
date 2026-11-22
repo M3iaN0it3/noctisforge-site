@@ -41,3 +41,8 @@
   const year=document.getElementById('currentYear');
   if(year)year.textContent=String(new Date().getFullYear());
 })();
+// NoctisForge: version metadata and changelog (loaded as extra, nonblocking feature).
+(function(){
+ const css=document.createElement('link');css.rel='stylesheet';css.href='updates.css';document.head.appendChild(css);
+ const script=document.createElement('script');script.src='updates.js';script.defer=true;document.body.appendChild(script);
+})();
