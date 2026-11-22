@@ -1,9 +1,15 @@
 {
-  "version": "1.11.2",
-  "publishedAt": "2026-11-22T05:23:46Z",
-  "downloadUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.2/NoctisForge.exe",
-  "sha256": "96ccf5039b45d98ae338590d1e1eff1cecb5206799fdf09e0e34e906b10443f6",
+  "manifestVersion": 2,
+  "version": "1.11.3",
+  "publishedAt": "2026-11-22T16:33:41Z",
+  "downloadUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.3/NoctisForge.exe",
+  "sha256": "ce74b01a9151f248b61553e2cb26b4dc1a1ff86e1f768c9bc0a9c1469252033c",
+  "size": 9099776,
+  "checksumUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.3/SHA256SUMS.txt",
+  "securityReportUrl": "https://github.com/M3iaN0it3/noctisforge-site/releases/download/v1.11.3/security-report.json",
+  "sourceCommit": "204e572c9d258ee242b04a01ca7cd206accc6199",
   "notes": [
-    "Melhorias e ajustes no NoctisForge Desktop."
+    "Melhorias no sistema de verificacao de atualizacoes.",
+    "feat: seguranca e publicacao automatica NoctisForge"
   ]
 }
